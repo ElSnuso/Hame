@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+    background: #f6f6f6;
+}
+
+nav{
+    position: relative;
+    top: 0;
+    background: #333;
+    padding: 15px;
+    z-index: 1000;
+}
+
+nav a{
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+header{
+    background: #e85d75;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.card{
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0,0,0,1);
+    transition: transform .3s;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+.card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform .4s ease;
+}
+
+.card:hover img{
+    transform: scale(1.1);
+}
+
+.card{
+    padding: 20px;
+}
+
+button{
+    background: #e85d75;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #d44c63;
+}
+
+form{
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: auto;
+}
+
+input, textarea{
+    width: 100px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+footer{
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
