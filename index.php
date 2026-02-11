@@ -1,26 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hameen Florist </title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="About.html">About</a>
-        <a href="Contact.html">Contact</a>
-        <a href="Order.html">Order</a>
-        <a href="confirm.html">confirm</a>
-        <a href="admin.html">Admin</a>
-    </nav>
 
-    <header>
-        <h1>Hameen Florist</h1>
-        <p> Fresh Scented flowers for every occassion </p>
-    </header>
-
+<?php include 'header.php'?>
+<main>
     <div class="container">
 
         <div class="products">
@@ -78,5 +58,5 @@
     </div>
     <footer>2026 Hameen Florist</footer>
 
-</body>
+</main>
 </html>

@@ -1,23 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
+
+<?php include 'header.php' ?>
 <body>
     
-    
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="About.html">About</a>
-        <a href="Contact.html">Contact</a>
-        <a href="Order.html">Order</a>
-        <a href="confirm.html">confirm</a>
-        <a href="admin.html">Admin</a>
-    </nav>
-
     <header>
         <h1>Place your Order</h1>
     </header>
@@ -36,5 +20,7 @@
             <a href="confirm.html"><button type="submit">Place Order</button> </a>
         </form>
     </div>
+    <?php include 'contact.php' ?>
+    <?php include 'footer.php' ?>
 </body>
 </html>
